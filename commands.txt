@@ -1,3 +1,9 @@
 $ source myvenv/bin/activate
 python manage.py runserver
 http://127.0.0.1:8000/
+
+python manage.py startapp blog
+
+$ git status
+$ git add --all .
+$ git commit -m "My Django app, first commit"
